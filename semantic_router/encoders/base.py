@@ -1,6 +1,6 @@
 from typing import Any, Coroutine, List, Optional
 
-from pydantic.v1 import BaseModel, Field, validator
+from pydantic import BaseModel, Field, validator
 
 
 class BaseEncoder(BaseModel):
